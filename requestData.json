@@ -1,0 +1,16 @@
+{
+    "source_addr": "INFO",
+    "schedule_time": "",
+    "encoding": "0",
+    "message": "Hello world",
+    "recipients": [
+        {
+            "recipient_id": 1,
+            "dest_addr": "255700000001"
+        },
+        {
+            "recipient_id": 2,
+            "dest_addr": "255700000002"
+        }
+    ]
+}
