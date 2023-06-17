@@ -1,0 +1,15 @@
+<sms>
+  <source_addr>INFO</source_addr>
+  <schedule_time />
+  <message>Hello world</message>
+  <recipients>
+      <recipient>
+          <recipient_id>1</recipient_id>
+          <dest_addr>255700000001</dest_addr>
+      </recipient>
+      <recipient>
+          <recipient_id>2</recipient_id>
+          <dest_addr>255600000002</dest_addr>
+      </recipient>
+  </recipients>
+</sms>
