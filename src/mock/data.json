@@ -1,0 +1,249 @@
+{
+    "appName": "SmartDevSystems",
+    "routes": [
+        { "name": "App", "path" : "app" }, 
+        { "name": "Payments", "path" : "payments" }, 
+        { "name": "Reports", "path": "reports" }
+    ],
+    "accountValidation": {
+        "firstName": {
+            "name": "firstName",
+            "reqErrorMessage": "First name is required"
+        },
+        "lastName": {
+            "name": "lastName",
+            "reqErrorMessage": "Last name is required"
+        },
+        "email": {
+            "name": "email",
+            "reqErrorMessage": "Email is required"
+        },
+        "username": {
+            "name": "username",
+            "reqErrorMessage": "Username is required"
+        },
+        "password": {
+            "name": "password",
+            "reqErrorMessage": "Password is required",
+            "errorMessage": "Password format is incorrect"
+        },
+        "dateOfBirth": {
+            "name": "dateOfBirth",
+            "reqErrorMessage": "Date of birth is required"
+        },
+        "address": {
+            "name": "address",
+            "reqErrorMessage": "Address is required",
+            "fields": {
+                "street": {
+                    "name": "street",
+                    "reqErrorMessage": "Street is required"
+                },
+                "city": {
+                    "name": "city",
+                    "reqErrorMessage": "City is required"
+                },
+                "state": {
+                    "name": "state",
+                    "reqErrorMessage": "State is required"
+                },
+                "postalCode": {
+                    "name": "postalCode",
+                    "reqErrorMessage": "Postal code is required"
+                },
+                "country": {
+                    "name": "country",
+                    "reqErrorMessage": "Country is required"
+                }
+            }
+        },
+        "phone": {
+            "name": "phone",
+            "reqErrorMessage": "Phone number is required",
+            "errorMessage": "You must provide a valid phone number"
+        },
+        "card": {
+            "name": "card",
+            "reqErrorMessage": "Card details are required",
+            "fields": {
+                "cardNumber": {
+                    "name": "cardNumber",
+                    "reqErrorMessage": "Card number is required",
+                    "errorMessage": "You must provide a valid card number"
+                },
+                "nameOnCard": {
+                    "name": "nameOnCard",
+                    "reqErrorMessage": "Name on card is required"
+                },
+                "cvv": {
+                    "name": "cvv",
+                    "reqErrorMessage": "CVV is required"
+                },
+                "expiryDate": {
+                    "name": "expiryDate",
+                    "reqErrorMessage": "Expiry date is required"
+                }
+            }
+        }
+    },
+    "sampleProjects": [
+        {
+            "image": "https://assets.smartdevsystems.com/movietrailer.png",
+            "name": "Movie Trailer",
+            "description": "",
+            "link": "https://movietrailer-sa.web.app"
+        },
+        {
+            "image": "https://assets.smartdevsystems.com/highland.png",
+            "name": "Highland Securicor",
+            "description": ""
+        },
+        {
+            "image": "https://assets.smartdevsystems.com/home.jpg",
+            "name": "Music Player",
+            "description": ""
+        },
+        {
+            "image": "https://assets.smartdevsystems.com/cts.JPG",
+            "name": "Package Tracking System",
+            "description": "",
+            "link": "https://cts-package-tracker-idsys.netlify.app/"
+        }
+    ],
+    "tiers": [
+        {
+            "title": "Dynamic Website",
+            "image": "https://assets.smartdevsystems.com/development.jpeg",
+            "package": {
+                "name": "dynamic",
+                "category": "development"
+            },
+            "price": "250,000",
+            "description": [
+                "Database Integration",
+                "Authentication",
+                "Responsive User Interface",
+                "Custom Functionality",
+                "Search Engine Optimization",
+                "Analytics and Reporting",
+                "Social Media Integration"
+            ],
+            "buttonText": "Get started",
+            "buttonVariant": "contained"
+        },
+        {
+            "title": "Static Website",
+            "image": "https://assets.smartdevsystems.com/development.jpeg",
+            "package": {
+                "name": "static",
+                "category": "development"
+            },
+            "price": "130,000",
+            "description": [
+                "Informative Pages",
+                "Responsive User Interface",
+                "Image and Media Integration",
+                "Contact and About Us",
+                "Search Engine Optimization",
+                "Social Media Integration"
+            ],
+            "buttonText": "Get started",
+            "buttonVariant": "contained"
+        },
+        {
+            "title": "Student SMS API",
+            "image": "https://assets.smartdevsystems.com/sms_api.jpeg",
+            "package": {
+                "name": "smsapi",
+                "category": "api"
+            },
+            "price": "10,000",
+            "description": [
+                "100 SMS's",
+                "One way sms transactions",
+                "Best for customer engagement",
+                "With custom sender name",
+                "For companies just enqiure"
+            ],
+            "buttonText": "Get started",
+            "buttonVariant": "contained"
+        }
+    ],
+    "terms": {
+        "title": "Last Updated: September 1, 2023",
+        "start_desc": "These Terms of Service (Terms) are a legal agreement between you (User or Customer) and SmartDevSystems (Company, we, us, or our), governing your use of the website, services, and products provided by SmartDevSystems.",
+        "list": [
+            {
+                "title":  "Acceptance of Terms",
+                "content": "By accessing and using our website and services, you agree to abide by these Terms. If you do not agree to these Terms, please do not use our services."
+            },
+            {
+                "title":  "Services Offered",
+                "subs": [
+                    {
+                        "title":  "Software Development",
+                        "content": "We provide custom software development services tailored to your needs."
+                    },
+                    {
+                        "title":  "SMS API Sales",
+                        "content": "We offer SMS API services for sale, subject to specific terms and pricing detailed on our website."
+                    }
+                ]
+            },
+            {
+                "title":  "Payment and Pricing",
+                "subs": [
+                    {
+                        "content": "Payment for services is processed securely through our online payment gateway. You agree to pay all applicable fees and charges for the services you purchase."
+                    },
+                    {
+                        "content": "Prices for services are subject to change without prior notice. Any changes will not affect ongoing projects or purchases."
+                    }
+                ]
+            },
+            {
+                "title":  "User Responsibilities",
+                "subs": [
+                    {
+                        "content": "You agree to provide accurate information when using our services."
+                    },
+                    {
+                        "content": "You are responsible for maintaining the confidentiality of your account and password."
+                    }
+                ]
+            },
+            {
+                "title":  "Intellectual Property",
+                "content": "Any content or materials created during the provision of services remain the property of SmartDevSystems until payment is received in full."
+            },
+            {
+                "title": "Termination",
+                "content": "We reserve the right to terminate or suspend your access to our services at our discretion, with or without cause."
+            },
+            {
+                "title": "Privacy",
+                "content": "Your use of our services is subject to our Privacy Policy, which is incorporated into these Terms by reference."
+            },
+            {
+                "title":  "Disclaimers",
+                "subs": [
+                    {
+                        "content": "We make no guarantees regarding the accuracy or reliability of our services."
+                    },
+                    {
+                        "content": "We are not liable for any damages or losses resulting from the use of our services."
+                    }
+                ]
+            },
+            {
+                "title": "Governing Law",
+                "content": "These Terms are governed by and construed in accordance with the laws of 'The Electronic Transactions Act (2016)'."
+            },
+            {
+                "title":  "Contact Information",
+                "content": "If you have any questions or concerns about these Terms, please contact us at info@smartdevsystems.com."
+            }
+        ],
+        "end_desc": "By using our services, you acknowledge that you have read, understood, and agreed to these Terms of Service."
+    }
+}

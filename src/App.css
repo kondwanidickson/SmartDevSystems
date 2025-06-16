@@ -1,0 +1,19 @@
+body {
+  background-color: #bdbdbd;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main, .bg-services {
+  background: linear-gradient(-75deg, 
+    #457973 0%,
+    #457973 50%, 
+    #234343 50%, 
+    #234343 100%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+}
