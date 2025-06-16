@@ -1,0 +1,37 @@
+{
+  "name": "idsys-student-payment-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/api.js",
+  "scripts": {
+    "test": "node functions/api.js",
+    "dev": "nodemon functions/api.js",
+    "start": "node functions/api.js",
+    "build": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.1",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "debug": "~3.2.7",
+    "dotenv": "^6.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-openid-connect": "^2.16.0",
+    "firebase": "^9.22.2",
+    "googleapis": "^126.0.1",
+    "graphql": "^16.8.0",
+    "graphql-tools": "^9.0.0",
+    "http-errors": "~1.8.1",
+    "morgan": "~1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^2.0.22",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
